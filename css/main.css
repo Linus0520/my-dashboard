@@ -149,30 +149,28 @@ p {
 
 /* Todo-list */
 
-#to-do-list{
-  padding: 2em 1em;
+#to-do-list {
+  padding: 2em 0em;
 }
 
-#to-do-list li {
+#task-list li {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f1f1f1;
   justify-content: space-between;
-  height: 60px
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-li {
+  min-height: 60px;
   font-size: 1em;
 }
 
+#task-list {
+  list-style-type: none;
+}
+
 .items {
-  display: flex;
-  align-items: center;
+  flex-grow: 1; 
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+  text-align: left; 
 }
 
 .delete-button {
@@ -184,7 +182,7 @@ li {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-right: 1.7em;
+  margin-right: 1em; 
 }
 
 .completed {
@@ -197,7 +195,7 @@ input[type='checkbox'] {
 }
 
 li:last-child {
-  margin-bottom:2em;
+  margin-bottom: 2em;
 }
 
 #addNewItem {
