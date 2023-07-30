@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=Assignment 2, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Dashboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- dark mode -->
+      <button tabindex="-1" id="dark-mode-toggle">
+        <span class="icon" tabindex="0" id="sun-icon" aria-label="Sun icon"
+          >&#9728;</span
+        >
+        <span class="icon" tabindex="0" id="moon-icon" aria-label="Moon icon"
+          >&#127769;</span
+        >
+      </button>
+      <!-- Login Section -->
+      <div class="box" id="login-container">
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button id="login-button">Login</button>
+        <p id="login-error">Invalid username or password.</p>
+      </div>
+      <div id="dashboard-container" style="display: none">
+        <div
+          id="user1-dashboard"
+          class="dashboard-content"
+          style="display: none"
+        >
+          <!-- date time -->
+          <div class="box" id="datetime-container">
+            <h1 id="time-container"></h1>
+            <h2 id="date-container"></h2>
+          </div>
+
+          <!-- weather-widget -->
+          <div class="box" id="weather-widget">
+            <div class="weather-search">
+              <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city name"
+                maxlength="50"
+                required
+              />
+              <button id="search-button">Search</button>
+            </div>
+            <div class="loader"></div>
+
+            <div class="weather-content">
+              <div class="left-part">
+                <p id="city"></p>
+                <p id="temperature"></p>
+              </div>
+              <div class="line"></div>
+              <div class="right-part">
+                <p id="weather-description"></p>
+                <img id="weather-icon" alt="Weather Icon" />
+              </div>
+            </div>
+          </div>
+
+          <!-- todo-list -->
+          <div class="box">
+            <div id="to-do-list">
+              <ul id="task-list"></ul>
+            </div>
+            <div id="addNewItem">
+              <input
+                type="text"
+                id="task-input"
+                placeholder="Add new task"
+                maxlength="20"
+                required
+              />
+              <button id="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
