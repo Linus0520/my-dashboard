@@ -88,7 +88,7 @@ p {
   transition: border-color 0.3s ease;
   margin-bottom: 10px;
   outline: none;
-  width: 75%;
+  width: 70%;
 }
 
 #city-input:focus {
@@ -369,4 +369,8 @@ body.dark-mode input:focus {
   #add-button{
     padding-bottom: 0px;
   };
+
+  #city-input {
+    width: 75%;
+  }
 }
