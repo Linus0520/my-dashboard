@@ -148,18 +148,22 @@ p {
 }
 
 /* Todo-list */
+
+#to-do-list{
+  padding: 2em 1em;
+}
+
 #to-do-list li {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f1f1f1;
   justify-content: space-between;
-  height: 60px;
+  height: 60px
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 li {
@@ -192,11 +196,14 @@ input[type='checkbox'] {
   margin: 20px;
 }
 
+li:last-child {
+  margin-bottom:2em;
+}
+
 #addNewItem {
   display: flex;
   text-align: center;
   align-items: center;
-  padding: 1em;
 }
 
 #task-input {
@@ -364,11 +371,4 @@ body.dark-mode input:focus {
   #add-button{
     padding-bottom: 0px;
   };
-}
-
-@media only screen and (min-width: 768px) {
-
-  .line {
-    height: 140px;
-  }
 }
