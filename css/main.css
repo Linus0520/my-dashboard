@@ -226,7 +226,7 @@ li:last-child {
   font-size: 2em;
   border-width: 0;
   cursor: pointer;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0.5em 0.5em 0 0.5em;
   padding-bottom: 0.5em;
 }
 
