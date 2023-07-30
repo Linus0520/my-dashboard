@@ -1,4 +1,5 @@
-// login
+document.addEventListener('DOMContentLoaded', () => {
+  // login
 const loginContainer = document.getElementById('login-container');
 const loginError = document.getElementById('login-error');
 const loginButton = document.getElementById('login-button');
@@ -186,7 +187,7 @@ document.getElementById('city-input').addEventListener('keypress', (event) => {
 });
 
 // Todo-list
-document.addEventListener('DOMContentLoaded', () => {
+
   // Load and manage the todo list from local storage
   const taskInput = document.getElementById('task-input');
   const addButton = document.getElementById('add-button');

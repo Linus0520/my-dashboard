@@ -10,14 +10,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1px;
-  background-color: #F0F8FF;
+  background-color: #f0f8ff;
   transition: all 500ms ease-out;
 }
 
-.wrapper{
-  padding:1em;
-  /* background-color: #333; */
+.wrapper {
+  padding: 1em;
 }
+
 h1 {
   color: #fff;
   font-size: 2em;
@@ -44,16 +44,13 @@ p {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-/* date time  */
-
 #datetime-container {
-  background-color: #1F6ED4;
+  background-color: #1f6ed4;
   text-align: center;
   padding: 2em;
-  margin-top:4em;
+  margin-top: 4em;
 }
 
-/* weather-widget */
 #weather-widget {
   padding-bottom: 0.5em;
 }
@@ -95,13 +92,13 @@ p {
 }
 
 #city-input:focus {
-  border-color: #1F6ED4;
+  border-color: #1f6ed4;
 }
 
 #search-button {
   padding: 10px 16px;
   font-size: 16px;
-  background-color: #1F6ED4;
+  background-color: #1f6ed4;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -117,7 +114,8 @@ p {
   flex-wrap: wrap;
 }
 
-.left-part, .right-part {
+.left-part,
+.right-part {
   flex: 1;
   text-align: center;
 }
@@ -149,11 +147,11 @@ p {
   font-weight: 400;
 }
 
-/* todo-list */
+/* Todo-list */
 #to-do-list li {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
   justify-content: space-between;
   height: 60px;
 }
@@ -176,7 +174,7 @@ li {
 .delete-button {
   padding: 10px 16px;
   font-size: 16px;
-  background-color: #D7263D;
+  background-color: #d7263d;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -187,10 +185,10 @@ li {
 
 .completed {
   text-decoration: line-through;
-  text-decoration-color: #1F6ED4;
+  text-decoration-color: #1f6ed4;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   margin: 20px;
 }
 
@@ -207,7 +205,7 @@ input[type="checkbox"] {
   border: none;
   font-size: 1em;
   width: 500px;
-  margin-left:1em;
+  margin-left: 1em;
 }
 
 #add-button {
@@ -217,7 +215,7 @@ input[type="checkbox"] {
   min-width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #1F6ED4;
+  background-color: #1f6ed4;
   color: #fff;
   font-size: 2em;
   border-width: 0;
@@ -238,12 +236,13 @@ body.dark-mode p,
 body.dark-mode #login-container h1 {
   color: #f0f0f0;
 }
+
 #login-container h1 {
   color: #333;
 }
 
 .box.dark-mode {
-  background:#424040;
+  background: #424040;
   color: #f0f0f0;
   box-shadow: 5px 5px 15px -5px rgba(255, 255, 255, 0.1);
 }
@@ -255,7 +254,7 @@ body.dark-mode input {
 }
 
 body.dark-mode input:focus {
-  border-color: #1F6ED4;
+  border-color: #1f6ed4;
 }
 
 #dark-mode-toggle {
@@ -271,29 +270,25 @@ body.dark-mode input:focus {
 }
 
 .icon {
-  font-size:36px;
+  font-size: 36px;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 .icon:focus {
-  outline: none; /* Remove the default focus outline */
-  border: 2px solid #007bff; /* Add a blue border when the icon is in focus */
+  outline: none;
+  border: 2px solid #007bff;
 }
 
 #sun-icon {
-  color: #FFD700; 
+  color: #ffd700;
   display: none;
-}
-
-.icon:focus {
-  outline: none; /* Remove the default focus outline */
-  border: 2px solid #007bff; /* Add a blue border when the icon is in focus */
 }
 
 #moon-icon {
   color: #333;
 }
+
 #dark-mode-toggle:hover {
   transform: scale(1.1);
 }
@@ -310,7 +305,7 @@ body.dark-mode input:focus {
   display: inline-block;
 }
 
-/* login */
+/* Login */
 #login-container {
   max-width: 300px;
   margin: 100px auto;
@@ -324,7 +319,7 @@ body.dark-mode input:focus {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 4px;
   outline: none;
   font-size: 16px;
@@ -334,7 +329,7 @@ body.dark-mode input:focus {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
-  color: #ffffff;
+  color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -354,7 +349,7 @@ body.dark-mode input:focus {
 }
 
 #login-container input:focus {
-  border-color: #1F6ED4;
+  border-color: #1f6ed4;
 }
 
 @media only screen and (min-width: 480px) {
