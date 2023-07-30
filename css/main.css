@@ -206,7 +206,7 @@ li:last-child {
 
 #task-input {
   text-align: center;
-  height: 60px;
+  height: 3em;
   border: none;
   font-size: 1em;
   width: 500px;
@@ -360,7 +360,7 @@ body.dark-mode input:focus {
 
 /* Copyright Footer */
 footer {
-  padding-top: 2em;
+  padding: 2em;
   text-align: center;
   font-size: 0.5em;
 }
